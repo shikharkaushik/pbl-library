@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+* {
+	font-family: Arial, sans-serif;
+}
+
+header, .box {
+    background-color: rgba(255, 255, 255, .7);
+    color: black;
+    border: 1px solid ghostwhite;
+}
+
+header {
+	padding: 10px;
+	text-align: center;
+}
+
+body {
+    background-image: url(./img_1.jpg);
+	color: white;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	height: 40dvh;
+	width: 20dvw;
+	margin-left: 40dvw;
+	margin-top: 15dvh;
+	
+    display: grid;
+    justify-content: center;
+    align-items: top;
+}
+
+.form {
+    position: relative;
+    margin-top: 4dvh;
+}
